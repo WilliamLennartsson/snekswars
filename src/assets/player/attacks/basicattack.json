@@ -1,0 +1,732 @@
+{
+  "frames": {
+    "basicattack0": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack1": {
+      "frame": {
+        "x": 96,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack2": {
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack3": {
+      "frame": {
+        "x": 288,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack4": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack5": {
+      "frame": {
+        "x": 480,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack6": {
+      "frame": {
+        "x": 576,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack7": {
+      "frame": {
+        "x": 672,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack8": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack9": {
+      "frame": {
+        "x": 864,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack10": {
+      "frame": {
+        "x": 960,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack11": {
+      "frame": {
+        "x": 1056,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack12": {
+      "frame": {
+        "x": 1152,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack13": {
+      "frame": {
+        "x": 1248,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack14": {
+      "frame": {
+        "x": 1344,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack15": {
+      "frame": {
+        "x": 1440,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack16": {
+      "frame": {
+        "x": 1536,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack17": {
+      "frame": {
+        "x": 1632,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack18": {
+      "frame": {
+        "x": 1728,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack19": {
+      "frame": {
+        "x": 1824,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack20": {
+      "frame": {
+        "x": 1920,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack21": {
+      "frame": {
+        "x": 2016,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack22": {
+      "frame": {
+        "x": 2112,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack23": {
+      "frame": {
+        "x": 2208,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack24": {
+      "frame": {
+        "x": 2304,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack25": {
+      "frame": {
+        "x": 2400,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack26": {
+      "frame": {
+        "x": 2496,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack27": {
+      "frame": {
+        "x": 2592,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack28": {
+      "frame": {
+        "x": 2688,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack29": {
+      "frame": {
+        "x": 2784,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack30": {
+      "frame": {
+        "x": 2880,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack31": {
+      "frame": {
+        "x": 2976,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack32": {
+      "frame": {
+        "x": 3072,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack33": {
+      "frame": {
+        "x": 3168,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack34": {
+      "frame": {
+        "x": 3264,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack35": {
+      "frame": {
+        "x": 3360,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack36": {
+      "frame": {
+        "x": 3456,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack37": {
+      "frame": {
+        "x": 3552,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack38": {
+      "frame": {
+        "x": 3648,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    },
+    "basicattack39": {
+      "frame": {
+        "x": 3744,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "w": 96,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 96
+      }
+    }
+  },
+  "meta": {
+    "app": "sneks-in-space",
+    "image": "basicattack",
+    "size": {
+      "w": "",
+      "h": ""
+    }
+  }
+}
