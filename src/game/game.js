@@ -1,3 +1,4 @@
+import DevTools from "./devtools/DevTools";
 import { createEnemy, createShootingEnemy } from "./enemy";
 import EntityManager from "./EntityManager";
 import { createPlayer } from "./player";
@@ -19,11 +20,15 @@ export const createGame = (props) => {
 
   const entityManager = new EntityManager({});
 
+  
   const player = createPlayer();
   entityManager.add(player);
   player.onShot = function (projectile) {
     entityManager.add(projectile);
   };
+
+  // Devtools. For analyzing, devenv mobspawning, extra controls and stuff
+  const devTools = new DevTools({ entityManager, canvas, player });
 
   let running = false;
 
@@ -73,25 +78,8 @@ export const createGame = (props) => {
 
   const inputEvent = (event) => {
     const code = event.code;
-    if (event.type == "keydown" && code == "Digit1") {
-      const enemy = createEnemy({
-        pos: { x: Math.random() * width, y: -10 },
-        dir: { x: 0, y: 1 },
-        maxSpeed: 3,
-      });
-      entityManager.add(enemy);
-      console.log("Spawned basic enemy", enemy);
-    } else if (event.type == "keydown" && code == "Digit2") {
-      const enemy = createShootingEnemy(
-        {
-          pos: { x: Math.random() * width, y: -10 },
-          dir: { x: 0, y: 1 },
-          maxSpeed: 3,
-        },
-        player
-      );
-      entityManager.add(enemy);
-    }
+    
+    devTools.handleInputEvent(event, code)
     player.handleEvent(event, code);
     // ui.handleEvent(event, code) // TODO
   };

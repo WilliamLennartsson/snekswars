@@ -1,6 +1,12 @@
 import { createGame } from "./game";
 import { createHtmlComponent } from "./htmlUtils";
 
+/**
+ * 
+ * @param props { container: div } 
+ * @returns A start function.
+ * const { start } = SneksGame()
+ */
 const SneksGame = (props) => {
   const { container } = props;
 
@@ -12,18 +18,21 @@ const SneksGame = (props) => {
       return 0
     }
   }
-  let width =  convertPxToNumber(container.style.width)
-  let height = convertPxToNumber(container.style.height)
 
-  console.log(`width, height`, width, height);
+  const width =  convertPxToNumber(container.style.width)
+  const height = convertPxToNumber(container.style.height)
+
   const canvas = createHtmlComponent({ type: "canvas", width, height });
   container.appendChild(canvas);
 
+  /**
+   * 
+   * @returns A stop function. stop()
+   * const stop = start()
+   */
   const start = () => {
     if (!canvas) return;
-    // Dynamic resizing later on?
-    canvas.width = 400;
-    canvas.height = 400;
+
     const [gameProps, gameApi] = createGame({ canvas });
 
     // Bind inputevents
@@ -40,9 +49,6 @@ const SneksGame = (props) => {
     };
   };
 
-  const createCanvas = (props) => {
-    const canvas = document.createElement("canvas");
-  };
   return { start };
 };
 

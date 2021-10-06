@@ -22,6 +22,7 @@ export default class EntityManager {
 
   update(deltaTime) {
     
+    // Add queued entities
     if (this.addQueue.length > 0) {
       this.entities.push(...this.addQueue)
       this.addQueue.splice(0, this.addQueue.length)
@@ -29,11 +30,10 @@ export default class EntityManager {
     // Remove dead entities
     removeDeadEntities(this.entities)
     
+    // Update entities
     this.entities.forEach((entity) => {
-      entity.update(deltaTime);
+      entity.update(deltaTime, this.entities);
     });
-
-    console.log(this.entities.length)
   }
   
   draw(ctx) {

@@ -1,6 +1,6 @@
 import spriteImage from "../assets/images/playerSprite.png";
+import { attachTimedMortalComponent, attachBoxCollider } from "./components";
 import Entity from "./Entity";
-import { removeDeadEntities } from "./EntityManager";
 
 const defaultPlayerProps = {
   name: "Player",
@@ -22,30 +22,19 @@ export const createPlayer = (incomingProps) => {
   player.rotation = {}; // Not needed for now
   player.maxSpeed = 10;
   player.color = "#339933";
-  // Player specific
-  // player.projectiles = [];
 
-  player.draw = function (ctx) {
+  attachBoxCollider(player)
+
+  player.onDraw = function (ctx) {
     if (ctx) {
       ctx.fillStyle = this.color;
       ctx.fillRect(this.pos.x, this.pos.y, this.size.w, this.size.h);
-      // ctx.drawImage(spriteImage, this.pos.x, this.pos.y)
-      // this.projectiles.forEach((projectile) => {
-      //   projectile.draw(ctx);
-      // });
     }
   };
 
-  player.update = function (deltaTime) {
+  player.onUpdate = function (deltaTime) {
     this.pos.x += this.dir.x * this.maxSpeed;
     this.pos.y += this.dir.y * this.maxSpeed;
-
-    // removeDeadEntities(this.projectiles)
-
-    // this.projectiles.forEach((projectile) => {
-    //   projectile.update(deltaTime);
-    // });
-
   };
 
   player.handleEvent = function (event, code) {
@@ -86,21 +75,16 @@ export const createProjectile = (entity) => {
     color: "#ffffff",
   });
 
-  projectile.lifeSpan = 150;
+  // projectile.lifeSpan = 150;
+  attachTimedMortalComponent(projectile);
+  console.log(`projectile`, projectile)
 
-  projectile.update = function (deltaTime) {
-    if (this.isDead) return
-
+  projectile.onUpdate = function (deltaTime) {
     this.pos.x += this.dir.x * this.maxSpeed;
     this.pos.y += this.dir.y * this.maxSpeed;
-
-    this.lifeSpan--;
-    if (this.lifeSpan <= 0) {
-      this.isDead = true;
-    }
   };
 
-  projectile.draw = function (ctx) {
+  projectile.onDraw = function (ctx) {
     ctx.fillStyle = this.color;
     // console.log(`this.pos.x, this.pos.y, this.size.w, this.size.h`, this.pos.x, this.pos.y, this.size.w, this.size.h)
     ctx.fillRect(this.pos.x, this.pos.y, this.size.w, this.size.h);
@@ -108,3 +92,5 @@ export const createProjectile = (entity) => {
 
   return projectile;
 };
+
+
