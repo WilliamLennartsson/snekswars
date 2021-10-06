@@ -1,0 +1,8 @@
+body {
+  overflow: hidden;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+}
